@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: gray;
+    padding: 50px;
+}
+
+a{  
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 0.2px solid transparent; 
+    transition: border-bottom 0.5s ease;
+    color: white;
+    
+}
+a:hover{
+    border-bottom: 5px solid #000;
+    color: black
+}
+
+img{
+    width: 550px;
+    height: 550px;
+    order: -1;
+    
+}
+div{
+    text-align: left;
+    margin-left: 300px;
+}
+.transition{
+    display: flex;
+    align-items: center;
+}
+.text-overlay {
+    margin-left: 50px; 
+}
+p{
+    font-size: 35px;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,7 +1,49 @@
 body{
     text-align: center;
+    background-color: #4e5a56;
+    padding: 50px;
 }
 img{
-    width: 300px;
-    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    border-radius: 20%;
 }
+
+a{  
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 0.2px solid transparent; 
+    transition: border-bottom 0.5s ease;
+    color: white;
+    
+}
+a:hover{
+    border-bottom: 5px solid #000;
+    color: black;
+}
+
+footer{
+    font-size: 48px;
+}
+
+.transition{
+    position: relative;
+    display: inline-block;    
+}
+
+.text-overlay {
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+  }
+  .transition:hover .text-overlay{
+    opacity: 1;
+  }
+  
