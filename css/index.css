@@ -45,5 +45,11 @@ footer{
   }
   .transition:hover .text-overlay{
     opacity: 1;
+    
+  }
+  .transition:hover{
+    box-shadow: 0 3px 67px -17px palegoldenrod;
+    border-radius: 20%;
+
   }
   

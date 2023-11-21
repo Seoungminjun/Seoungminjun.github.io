@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: gray;
+    padding: 50px;
+}
+
+a{  
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 0.2px solid transparent; 
+    transition: border-bottom 0.5s ease;
+    color: white;
+    
+}
+a:hover{
+    border-bottom: 5px solid #000;
+    color: black
+}
+img{
+    width: 400px;
+    height: 400px;
+    order: -1;
+    margin-right: 10px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    
+    
+}
+#tour1,#tour2 {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#tour3,#tour4{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}    
