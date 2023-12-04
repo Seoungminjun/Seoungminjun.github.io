@@ -1,0 +1,295 @@
+@import url('https://webfontworld.github.io/cookierun/CookieRun.css');
+html{
+    cursor: url('../img/christmas-calendar.png'), auto;
+    
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+
+}
+h1{
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.bg-box{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -99;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),url(../img/까만노트북.jpg);
+    background-size: cover;
+}
+.box {
+    width: 100%;
+    height: 100vh;
+
+}
+a{  
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 0.2px solid transparent; 
+    transition: border-bottom 0.5s ease;
+    color: white;
+    margin-right: 50px;
+    padding: 40px 10px 0 ;  
+      
+}
+
+a:hover{
+    border-bottom: 5px solid white;
+    color: tan;
+}
+.road{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    color: black;
+    
+    
+}
+.one1{
+    width: 800px;
+    height: 150px;
+    border: 5px solid white;
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;    
+}
+.one2{
+    position: relative;
+    width: 840px;
+    height: 160px;
+    border: 5px solid white;
+    border-right: none;
+    border-bottom-left-radius: 30px;
+    border-top: none;
+    border-top-left-radius: 20px;
+    border-bottom: none; 
+}
+.one3{
+    width: 800px;
+    height: 150px;
+    border: 5px solid white;
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;   
+}
+.one4{
+    position: relative;
+    width: 760px;
+    height: 150px;
+    border: 5px solid white;
+    border-right: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top: none;
+    border-top-left-radius: 20px;
+    left: -3%  
+}
+
+.circle{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 480px;
+    top: 180px;
+}
+.circle2{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: -52px;
+    top: -50px;
+}
+
+.circle3{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 480px;
+    top: 500px
+    
+}
+.circle4{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: -43px;
+    top: -50px;
+}
+.circle p {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    border: none;
+    font-size: 60px;
+    top: 22px;
+    left: 500px;
+    color: white;
+}
+#java{
+    position: absolute;
+    top: -26px;
+    left: 350px;
+    font-size: 32px;
+    color: white;
+}
+#oracle{
+    position: absolute;
+    top: -26px;
+    left: 500px;
+    font-size: 32px;
+    color: white;
+}
+#jdbc{
+    position: absolute;
+    top: -26px;
+    left: 680px;
+    font-size: 32px;
+    color: white;
+}
+.circle2 p{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    border: none;
+    font-size: 60px;
+    top: 10px;
+    left: 100px;
+    color: white;
+}
+#html{
+    position: absolute;
+    top: 136px;
+    left: 250px;
+    font-size: 32px;
+    color: white;
+}
+#css{
+    position: absolute;
+    top: 136px;
+    left: 400px;
+    font-size: 32px;
+    color: white;
+}
+#js{
+    position: absolute;
+    top: 136px;
+    left: 520px;
+    font-size: 32px;
+    color: white;
+}
+.circle3 p{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    border: none;
+    font-size: 33px;
+    top: 40px;
+    left: 450px;
+    color: white;
+    
+}
+#react{
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    font-size: 32px;
+    color: white;
+}
+#vue{
+    position: absolute;
+    top: 120px;
+    left: 390px;
+    font-size: 32px;
+    color: white;
+}
+#sb{
+    position: absolute;
+    width: 190px;
+    top: 120px;
+    left: 530px;
+    font-size: 32px;
+    color: white;
+}
+
+/**
+한글자씩 나오게 하는 효과 
+*/
+.circle span p{
+    display: inline; vertical-align: middle;
+    border-right: .05em solid black;
+    animation:  cursor 0.2s ease infinite;
+  }
+.circle2 span p{
+    display: inline; vertical-align: middle;
+    border-right: .05em solid black;
+    animation:  cursor 0.2s ease infinite;
+    border-right: none;
+    
+}
+.circle3 span p{
+    display: inline; vertical-align: middle;
+    border-right: .05em solid black;
+    animation:  cursor 0.2s ease infinite;
+    border-right: none;
+    font-family:'CookieRun';
+}
+.circle span p, .circle2 span p, .circle3 span p {
+    opacity: 0; /* 초기에 투명으로 설정 */
+     animation: fadeIn 2s forwards; /* fadeIn 애니메이션 적용 */
+}
+
+@keyframes fadeIn {
+from { opacity: 0;
+}
+to { opacity: 1;
+}
+}
+.circle4::after {
+    content: "";
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 800px;
+    color: white;
+    font-size: 25px;
+}
+
+.circle4:hover::after {
+    content: "앞으로도 많은 언어를 배워서 꾸준히 성장해 나가는 개발자가 되고싶습니다.";
+    opacity: 1;
+    font-family:'CookieRun';
+}
+
+.road h1{
+    font-family:'CookieRun';
+}

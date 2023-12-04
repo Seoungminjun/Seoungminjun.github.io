@@ -1,8 +1,11 @@
 body{
     text-align: center;
-    background-color: #4e5a56;
+    background-image: url(../img/바다3\ \(2\).jpg);
+    background-size: cover;
     padding: 50px;
 }
+
+
 img{
     width: 550px;
     height: 550px;
@@ -11,17 +14,17 @@ img{
 
 a{  
     font-family: 'Dongle', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
     text-align: center;
     border-bottom: 0.2px solid transparent; 
     transition: border-bottom 0.5s ease;
     color: white;
-    
+    margin-right: 50px;
 }
 a:hover{
     border-bottom: 5px solid #000;
-    color: black;
+    color: black
 }
 
 footer{
@@ -46,10 +49,16 @@ footer{
   .transition:hover .text-overlay{
     opacity: 1;
     
+    
   }
   .transition:hover{
     box-shadow: 0 3px 67px -17px palegoldenrod;
     border-radius: 20%;
 
-  }
-  
+}
+footer{
+    font-family: 'Dongle', sans-serif;
+    display: inline; vertical-align: middle;
+    border: none;
+    color: white;
+}

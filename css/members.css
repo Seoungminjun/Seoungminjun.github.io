@@ -1,0 +1,71 @@
+@import url('https://webfontworld.github.io/cookierun/CookieRun.css');
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+header a {
+    font-size: 50px;
+}
+header a:hover{
+    color: red;
+}
+
+body {
+    font-family:'CookieRun';
+    background-color: white;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 네비게이션 스타일 */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+/* 테이블 스타일 */
+#join-members {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 18px black;
+    background-color: #fff;
+}
+
+#join-members th, #join-members td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+#join-members th {
+    background-color: black;
+    color: #fff;
+}
+
+#join-members tbody tr:hover {
+    background-color: chartreuse;
+}
+
+/* 반응형 스타일 */
+@media screen and (max-width: 600px) {
+    #join-members {
+        width: 100%;
+    }
+}

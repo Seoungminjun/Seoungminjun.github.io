@@ -1,0 +1,120 @@
+@import url('https://webfontworld.github.io/TheJamsil/TheJamsil.css');
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+[name=signupFrm] {
+    width: 410px;
+    height: 650px;
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(255, 255, 255, 0.2);
+    font-family: 'TheJamsil';
+
+}
+table {
+  border-collapse: collapse;;
+}    
+th {
+  width: 110px;
+  text-align: left;
+  padding: 5px 30px 0 5px;
+  height: 80px;
+}
+td {
+  position: relative;
+}
+/* 밑줄에 대한 정보*/
+input {
+    width: 100%;
+    background-color:white;
+    border: 2px solid lightgrey;
+}
+input:focus {
+  outline: none;
+}
+/* 가입 */
+input[type=submit] {
+    margin-top: 30px;
+    margin-left: 52px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    background-color: cornflowerblue;
+    font-weight: bolder;
+    font-family: 'TheJamsil';
+}
+
+
+.msg {
+  position: absolute;
+  margin: 0;
+  font-size: 10px;
+  display: none;
+}
+.msg-required {
+  font-family: 'TheJamsil';
+  font-size: 16px;
+  color: red;
+}
+.msg-password {
+  font-size: 12px;
+  color: white;
+}
+input[type="password-confirm"] {
+    width: 90%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px dashed #000;
+    /* 추가된 부분: 텍스트를 가리기 위한 스타일 */
+    -webkit-text-security: disc;
+    
+}
+.msg-password-match {
+    font-size: 12px;
+    display: none; /* 일단 초기에는 숨겨둠 */
+}
+  
+.msg-password-match.green {
+    color: green;
+}
+  
+.msg-password-match.red {
+    color: red;
+}
+
+.name{
+    position: absolute;
+    margin: 0;
+    font-size: 10px;
+    display: none;
+}
+.msg-name {
+    font-size: 12px;
+    color: white;
+}
+
+.bg-box{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -99;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),url(../img/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg);
+  background-size: cover;
+}
+.hi{
+    text-align: center;
+    margin-bottom: 20px; /* 필요에 따라 여백 조절 */
+}

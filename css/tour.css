@@ -1,24 +1,34 @@
+
 body{
     text-align: center;
-    background-color: gray;
+    background-color: tan;
     padding: 50px;
-    
-    
+}
+.bg-box{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -99;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),url(../img/캠핑.jpg);
+    background-size: cover;
 }
 
 a{  
     font-family: 'Dongle', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
     text-align: center;
     border-bottom: 0.2px solid transparent; 
     transition: border-bottom 0.5s ease;
     color: white;
+    margin-right: 50px;
     
 }
 a:hover{
-    border-bottom: 5px solid #000;
-    color: black
+    border-bottom: 5px solid white;
+    color: tan;
 }
 #tour{
     width: 820px;
@@ -47,7 +57,7 @@ section{
     width: 550px;
     font-family: 'Dongle', sans-serif;
     font-size: 35px;
-    
+    color: white;
 }
 .camping{
     position:absolute;
@@ -60,12 +70,13 @@ section{
     transition: .2s;
     border-radius: 20%;
     margin-top: -415px;
-    
+    box-shadow: 19px 19px 14px -8px darkgreen;
+
     
 }
 #tour div:hover .camping{
     opacity:1;
-    transform: translateY(220);
+    transform: translateY(0px);
 
 }
 li{
@@ -76,6 +87,7 @@ li{
     overflow: hidden;
     
 }
+
 
 
 
